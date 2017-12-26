@@ -1,0 +1,604 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width:10rem;
+    height:1rem;
+    background: #fe5400 url("../imegs/logo.png") no-repeat 0.12rem;
+    background-size: 0.69rem 0.6rem;
+    position: relative;
+}
+.header-bottom{
+    width: 8.84rem;
+    height: 0.666rem;
+    background: #b52600;
+    border-radius: 0.12rem;
+    position: absolute;
+    left: 1rem;
+    top:0.173rem;
+    line-height: 0.666rem;
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+.lunbo{
+    width: 10rem;
+    height: 3.12rem;
+    background: firebrick;
+}
+.lunbo img{
+    width: 10rem;
+    height: 3.12rem;
+}
+/*中间上部分*/
+/*.content-top-one .imgs{*/
+    /*width: 1.12rem;*/
+    /*height: 1.12rem;*/
+/*}*/
+.content-top-one{
+    width: 10rem;
+    height:2.18rem;
+    position: relative;
+}
+.content-top-one .imgs img{
+    height: 1.12rem;
+}
+.content-top-one .imgs{
+    width:1.12rem;
+}
+.content-top-one .imtext{
+    width:1.55rem;
+    height: 0.266rem;
+    text-align: center;
+    line-height: 0.266rem;
+    font-size: 20px;
+}
+[data-dpr="1"] .content-top-one .imtext {
+    font-size: 10px;
+}
+[data-dpr="3"] .content-top-one .imtext {
+    font-size: 30px;
+}
+.content-top-one .xbj1{
+    position: absolute;
+    top: 0.333rem;
+    left:0.52rem;
+}
+.content-top-one .xbj2{
+    position: absolute;
+    top: 0.333rem;
+    left:2.37rem;
+}
+.content-top-one .xbj3{
+    position: absolute;
+    top: 0.333rem;
+    left:4.24rem;
+}
+.content-top-one .xbj4{
+    position: absolute;
+    top: 0.333rem;
+    left:6.09rem;
+}
+.content-top-one .xbj5{
+    position: absolute;
+    top: 0.333rem;
+    left:7.86rem;
+}
+.content-top-two{
+    width: 10rem;
+    height:2.18rem;
+    position: relative;
+}
+.content-top-two .imgs img{
+    height: 1.12rem;
+}
+.content-top-two .imgs{
+    width:1.12rem;
+}
+.content-top-two .imtext{
+    width:1.55rem;
+    height: 0.266rem;
+    text-align: center;
+    line-height: 0.266rem;
+    font-size: 20px;
+}
+[data-dpr="1"] .content-top-two .imtext {
+    font-size: 10px;
+}
+[data-dpr="3"] .content-top-two .imtext {
+    font-size: 30px;
+}
+.content-top-two .xbj6{
+    position: absolute;
+    top: 0.333rem;
+    left:0.52rem;
+}
+.content-top-two .xbj7{
+    position: absolute;
+    top: 0.333rem;
+    left:2.37rem;
+}
+.content-top-two .xbj8{
+    position: absolute;
+    top: 0.333rem;
+    left:4.24rem;
+}
+.content-top-two .xbj9{
+    position: absolute;
+    top: 0.333rem;
+    left:6.09rem;
+}
+.content-top-two .xbj10{
+    position: absolute;
+    top: 0.333rem;
+    left:7.86rem;
+}
+/*淘宝头条*/
+.content-center{
+    width: 10rem;
+    height: 1rem;
+    border-top: 0.05rem solid  #dddddd;
+    margin-top: 0.233rem;
+    position: relative;
+}
+.content-center-left{
+    width: 2.173rem;
+    height: 0.746rem;
+    border-right:0.05rem solid #dddddd ;
+    margin-top: 0.133rem;
+    background: url("../imegs/toutiao.png") no-repeat 0.333rem;
+    background-size:1.6rem 0.5rem;
+
+}
+.content-center-right{
+    width: 7.84rem;
+    height: 0.746rem;
+    position: absolute;
+    top:0.01rem;
+    right: 0.01rem;
+    line-height: 0.746rem;
+    margin-top: 0.06rem;
+}
+.content-center-right span{
+    width:0.906rem;
+    height: 0.533rem;
+    line-height: 0.533rem;
+    border: 3px solid red;
+    border-radius: 0.12rem;
+    margin:0.4rem;
+    font-size: 26px;
+}
+[data-dpr="1"] .content-center-right span {
+    font-size: 13px;
+}
+[data-dpr="3"] .content-center-right span {
+    font-size: 39px;
+}
+/*中间下部分*/
+.content-b{
+    width:10rem;
+    height: 5.2rem;
+    border-top: 0.16rem solid #dddddd;
+    position: relative;
+}
+.content-bottom{
+    width: 3.75rem;
+    height: 5.2rem;
+    border-right: 0.02rem solid #dddddd;
+    background: url("../imegs/dbj1.jpg") no-repeat;
+    background-size: 3.76rem 5rem;
+}
+.bottom-text{
+    width: 2.5rem;
+    height: 0.55rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 1.4rem;
+    font-size: 14px;
+    display: block;
+}
+.bottom-text span{
+     width: 0.65rem;
+     height: 0.55rem;
+     display: block;
+     background: #000;
+     color: #fff;
+     line-height: 0.55rem;
+     float: left;
+     text-align: center;
+ }
+.bottom-text .dot{
+    width: 0.15rem;
+    height: 0.55rem;
+    background: #FFF;
+    color: #000;
+    line-height: 0.55rem;
+}
+.content-right{
+    width: 6.152rem;
+    height: 2.3rem;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    float: left;
+}
+
+.content-right .right-left{
+    width: 3.075rem;
+    height: 2.43rem;
+    background: url("../imegs/dbj3.jpg") no-repeat;
+    background-size: 3.075rem 2.43rem;
+}
+.content-right .right-right{
+    width: 3.075rem;
+    height: 2.43rem;
+    background: url("../imegs/dbj4.png") no-repeat;
+    background-size: 3.075rem 2.43rem;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.content-left{
+    width: 6.152rem;
+    height: 2.7rem;
+    position: absolute;
+    border-top: 0.02rem solid #ddd;
+    top: 2.4rem;
+    right: 0rem;
+    float: left;
+}
+
+.content-left .left-left{
+    width: 3.065rem;
+    height: 2.73rem;
+    background: url("../imegs/dbj5.jpg") no-repeat;
+    border-right: 0.04rem solid #ddd;
+    background-size: 3.065rem 2.73rem;
+}
+.content-left .left-right{
+    width: 3.065rem;
+    height: 2.73rem;
+    background: url("../imegs/dbj6.png") no-repeat;
+    background-size: 3.065rem 2.73rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*超实惠*/
+.content-chaoshihui{
+    width: 10rem;
+    height: 6.85rem;
+    border-top: 0.2rem solid #ddd;
+    position: relative;
+}
+.content-chaoshihui .chaoshihui{
+    width: 10rem;
+    height: 0.85rem;
+    background: url("../imegs/cbj9.png") no-repeat 4.00rem;
+    background-size: 0.452rem 0.452rem;
+    text-align: center;
+    line-height: 0.85rem;
+    border-bottom: 0.02rem solid #ddd;
+}
+.content-chaoshihui .chaoshihui span{
+    color: red;
+    font-size: 14px;
+}
+.content-chaoshihui .top .one{
+    width: 3.725rem;
+    height: 2.9rem;
+    background: url("../imegs/cbj1.jpg") no-repeat;
+    background-size: 3.725rem 2.9rem;
+}
+.content-chaoshihui .top .two{
+    width: 2.05rem;
+    height: 2.9rem;
+    background: url("../imegs/cbj2.png") no-repeat;
+    border-left: 0.02rem solid #ddd ;
+    background-size: 2.05rem 2.9rem;
+    position: absolute;
+    top: 0.89rem;
+    left: 3.725rem;
+}
+.content-chaoshihui .top .three{
+    width: 2.05rem;
+    height: 2.9rem;
+    background: url("../imegs/cbj3.png") no-repeat;
+    border-left: 0.02rem solid #ddd ;
+    background-size: 2.05rem 2.9rem;
+    position: absolute;
+    top: 0.89rem;
+    right: 2.05rem;
+}
+.content-chaoshihui .top .four{
+    width: 2.05rem;
+    height: 2.9rem;
+    background: url("../imegs/cbj4.jpg") no-repeat;
+    border-left: 0.02rem solid #ddd ;
+    background-size: 2.05rem 2.9rem;
+    position: absolute;
+    top: 0.89rem;
+    right: 0rem;
+}
+.content-chaoshihui .bottom{
+    width: 10rem;
+    height: 2.9rem;
+    border-top: 0.02rem solid #ddd ;
+}
+.content-chaoshihui .bottom .one{
+    width: 3.725rem;
+    height: 2.9rem;
+    background: url("../imegs/cbj5.png") no-repeat;
+    background-size: 3.725rem 2.9rem;
+    margin-top: 0.02rem;
+}
+.content-chaoshihui .bottom .two{
+    width: 2.05rem;
+    height: 2.9rem;
+    background: url("../imegs/cbj6.jpg") no-repeat;
+    border-left: 0.02rem solid #ddd ;
+    background-size: 2.05rem 2.9rem;
+    position: absolute;
+    top: 3.8rem;
+    left: 3.725rem;
+}
+.content-chaoshihui .bottom .three{
+    width: 2.05rem;
+    height: 2.9rem;
+    background: url("../imegs/cbj7.jpg") no-repeat;
+    border-left: 0.02rem solid #ddd ;
+    background-size: 2.05rem 2.9rem;
+    position: absolute;
+    top: 3.8rem;
+    right: 2.05rem;
+}
+.content-chaoshihui .bottom .four {
+    width: 2.05rem;
+    height: 2.9rem;
+    background: url("../imegs/cbj8.png") no-repeat;
+    border-left: 0.02rem solid #ddd;
+    background-size: 2.05rem 2.9rem;
+    position: absolute;
+    top: 3.8rem;
+    right: 0rem;
+}
+/*更多服务*/
+.content-genduo{
+    width: 10rem;
+    height: 0.95rem;
+    border-top: 0.02rem solid #ddd;
+    background: url("../imegs/tbj.png") no-repeat ;
+    background-size: 4.325rem 0.95rem;
+    position: relative;
+}
+.content-genduo .left{
+    width: 5rem;
+    height: 0.95rem;
+    background: url("../imegs/tbj1.png") no-repeat 4.5rem;
+    background-size: 0.35rem 0.35rem;
+    position: absolute;
+    right: 0;
+}
+.content-genduo .left span{
+    line-height: 0.95rem;
+    position: absolute;
+    right: 0.5rem;
+}
+.content-xin{
+    width:10rem;
+    height: 2rem;
+    background: url("../imegs/xbj.png") no-repeat;
+    background-size: 10rem 2rem;
+}
+.content-g{
+    width: 10rem;
+    height: 1.1rem;
+    border-top: 0.2rem solid #ddd ;
+    background: url("../imegs/gbj1.png") no-repeat 9.5rem;
+    background-size: 0.45rem 0.45rem;
+    position: relative;
+}
+.content-g .left{
+    width: 5rem;
+    height: 1.1rem;
+    border-left: 0.2rem solid #ff9b43;
+}
+.content-g .left span{
+    font-size: 16px;
+    line-height: 1.1rem;
+}
+.content-g .right span{
+    font-size: 16px;
+    line-height: 1.1rem;
+    position: absolute;
+    right: 0.5rem;
+    top:0;
+}
+/*更多好店*/
+.content-haodian{
+    width: 10rem;
+    height: 4.4rem;
+    border-top: 0.02rem solid #ddd;
+    position: relative;
+
+}
+.content-haodian .left{
+    width: 5rem;
+    height: 4.075rem;
+    position: relative;
+}
+.content-haodian .left .left{
+    width: 3rem;
+    height: 3.5rem;
+    background: url("../imegs/lbj1.jpg") no-repeat;
+    background-size: 3.125rem 3.125rem;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+}
+.content-haodian .left .r1{
+    width: 1.7rem;
+    height: 1.7rem;
+    background: url("../imegs/lbj2.jpg") no-repeat;
+    background-size: 1.6rem 1.6rem;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-top: -0.05rem;
+}
+.content-haodian .left .r2{
+    width: 1.7rem;
+    height: 1.7rem;
+    background: url("../imegs/lbj3.jpg") no-repeat;
+    background-size: 1.6rem 1.6rem;
+    position: absolute;
+    right:0;
+    top: 1.7rem;
+    margin-top: -0.1rem;
+}
+.content-haodian .left .bottom{
+    margin-top: -0.2rem;
+}
+.content-haodian .left .bottom span{
+    font-size: 16px;
+    margin-left: 0.25rem;
+}
+.content-haodian .right{
+    width: 5rem;
+    height: 4.075rem;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.content-haodian .right .left{
+    width: 3rem;
+    height: 3.5rem;
+    background: url("../imegs/lbj1.jpg") no-repeat;
+    background-size: 3.125rem 3.125rem;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+}
+.content-haodian .right .r1{
+    width: 1.7rem;
+    height: 1.7rem;
+    background: url("../imegs/lbj2.jpg") no-repeat;
+    background-size: 1.6rem 1.6rem;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-top: -0.05rem;
+}
+.content-haodian .right .r2{
+    width: 1.7rem;
+    height: 1.7rem;
+    background: url("../imegs/lbj3.jpg") no-repeat;
+    background-size: 1.6rem 1.6rem;
+    position: absolute;
+    right:0;
+    top: 1.7rem;
+    margin-top: -0.1rem;
+}
+.content-haodian .right .bottom{
+    margin-top: -0.2rem;
+}
+.content-haodian .right .bottom span{
+    font-size: 16px;
+    margin-left: 0.25rem;
+}
+.content-cain{
+    width: 10rem;
+    height: 1.5rem;
+    background: url("../imegs/cbj1.png") no-repeat #eee 4rem 0.275rem;
+    background-size:0.5rem 0.5rem;
+    position: relative;
+}
+.content-cain .text span{
+    position: absolute;
+    top:0.28rem;
+    left: 4.6rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+.content-cain .text p{
+    position: absolute;
+    top:0.7rem;
+    left: 3.45rem;
+}
+/*猜你喜欢*/
+.cai{
+    width: 10rem;
+    height: 6.75rem;
+    border-bottom: 0.1rem solid #ddd ;
+    position: relative;
+
+}
+.cai .left{
+    width: 4.97rem;
+    height: 6.75rem;
+    background: url("../imegs/cnbj1.jpg") no-repeat;
+    background-size: 4.95rem 4.57rem;
+    position: relative;
+    border-right: 0.02rem solid #ddd ;
+}
+.cai .left .text{
+    width: 4.375rem;
+    height: 1.55em;
+    position: absolute;
+    top:4.6rem;
+    left: 0.2rem;
+}
+.cai .left .text .red{
+    color: red;
+    font-size: 16px;
+    margin-top: 0.1rem;
+}
+.cai .right{
+    width: 4.97rem;
+    height: 6.75rem;
+    background: url("../imegs/cnbj2.jpg") no-repeat;
+    background-size: 4.95rem 4.57rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.cai .right .text{
+    width: 4.375rem;
+    height: 1.55em;
+    position: absolute;
+    top:4.6rem;
+    left: 0.2rem;
+}
+.cai .right .text .red{
+    color: red;
+    font-size: 16px;
+    margin-top: 0.1rem;
+}
+/*结束*/
+.fount{
+    width: 10rem;
+    height: 3.3rem;
+    background: url("../imegs/bbj.png") no-repeat #4e525e 2.575rem 2.2rem;
+    background-size: 0.5rem 0.5rem;
+    position: relative;
+}
+.fount .text{
+    width: 10rem;
+    height: 1.25em;
+    float: left;
+}
+.fount .text button{
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
+    height: 0.75rem;
+    width: 1.5rem;
+    color: #c3c6ca;
+    background: #4e525e;
+    border-radius: 0.12rem;
+    border: 0.05rem solid #000;
+}
+.fount .text1{
+    position: absolute;
+    bottom: 0.65rem;
+    left: 3.2rem;
+    color: #c3c6ca;
+}
