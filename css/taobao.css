@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
 }
+header .header{
+    width:10rem;
+    height:2rem;
+}
 header{
     width:10rem;
     height:1rem;
     background: #fe5400 url("../imegs/logo.png") no-repeat 0.12rem;
     background-size: 0.69rem 0.6rem;
-    position: relative;
+    position: fixed;
+    z-index: 9;
+    top:0;
 }
 .header-bottom{
     width: 8.84rem;
@@ -26,6 +32,7 @@ header{
     width: 10rem;
     height: 3.12rem;
     background: firebrick;
+    margin-top: 1rem;
 }
 .lunbo img{
     width: 10rem;
@@ -198,6 +205,12 @@ header{
     font-size: 14px;
     display: block;
 }
+[data-dpr="2"] .bottom-text {
+    font-size: 28px;
+}
+[data-dpr="3"] .bottom-text {
+    font-size: 42px;
+}
 .bottom-text span{
      width: 0.65rem;
      height: 0.55rem;
@@ -284,6 +297,12 @@ header{
 .content-chaoshihui .chaoshihui span{
     color: red;
     font-size: 14px;
+}
+[data-dpr="2"] .content-chaoshihui .chaoshihui span {
+    font-size: 28px;
+}
+[data-dpr="3"] .content-chaoshihui .chaoshihui span {
+    font-size: 42px;
 }
 .content-chaoshihui .top .one{
     width: 3.725rem;
@@ -463,6 +482,13 @@ header{
     font-size: 16px;
     margin-left: 0.25rem;
 }
+[data-dpr="2"] .content-haodian .left .bottom span {
+    font-size: 32px;
+}
+[data-dpr="3"] .content-haodian .left .bottom span {
+    font-size: 48px;
+}
+
 .content-haodian .right{
     width: 5rem;
     height: 4.075rem;
@@ -505,6 +531,12 @@ header{
     font-size: 16px;
     margin-left: 0.25rem;
 }
+[data-dpr="2"] .content-haodian .right .bottom span {
+    font-size: 32px;
+}
+[data-dpr="3"] .content-haodian .right .bottom span {
+    font-size: 48px;
+}
 .content-cain{
     width: 10rem;
     height: 1.5rem;
@@ -518,6 +550,12 @@ header{
     left: 4.6rem;
     font-size: 14px;
     font-weight: 600;
+}
+[data-dpr="2"] .content-cain .text span {
+    font-size: 28px;
+}
+[data-dpr="3"] .content-cain .text span {
+    font-size: 42px;
 }
 .content-cain .text p{
     position: absolute;
@@ -552,6 +590,12 @@ header{
     font-size: 16px;
     margin-top: 0.1rem;
 }
+[data-dpr="2"] .cai .left .text .red {
+     font-size: 32px;
+ }
+[data-dpr="3"] .cai .left .text .red {
+    font-size: 48px;
+}
 .cai .right{
     width: 4.97rem;
     height: 6.75rem;
@@ -572,6 +616,12 @@ header{
     color: red;
     font-size: 16px;
     margin-top: 0.1rem;
+}
+[data-dpr="2"] .cai .right .text .red {
+    font-size: 32px;
+}
+[data-dpr="3"] .cai .right .text .red {
+    font-size: 48px;
 }
 /*结束*/
 .fount{
@@ -601,4 +651,33 @@ header{
     bottom: 0.65rem;
     left: 3.2rem;
     color: #c3c6ca;
+}
+.fount1{
+    background: #ddd;
+    position: fixed;
+    height: 1rem;
+    width: 10rem;
+    bottom: 0;
+    z-index: 9;
+}
+.fount2{
+    width: 10rem;
+    height: 1rem;
+}
+
+.fount1 .text i{
+    width:2.5rem;
+    height: 1.5rem;
+    font-size: 20px;
+    bottom: 0rem;
+    position: relative;
+    margin-left: 1.2rem;
+
+}
+.fount1 .text i span{
+    width: 2rem;;
+    font-size: 14px;
+    position:absolute;
+    top:0.5rem;
+    left: -0.1rem;
 }
